@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VisualitzadorEntrenos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="40dp"
+            android:text="Visualitzador d'entrenaments"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="152dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="40dp"
+            android:text="Nom"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/id_nomentreno"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+
+            android:layout_width="152dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:ems="10"
+            android:text="NºSetmanes"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/id_nsetmanes"
+            android:layout_width="100dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#FFFFFF"
+            android:ems="10" />
+
+
+        <TextView
+
+            android:layout_width="152dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:text="Dilluns"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/id_entdilluns"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:gravity="start" />
+
+        <TextView
+            android:layout_width="152dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:text="Dimarts"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/id_entdimarts"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:gravity="start" />
+
+        <TextView
+            android:layout_width="152dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:text="Dimecres"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/id_entdimecres"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:gravity="start" />
+
+        <TextView
+            android:layout_width="152dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:text="Dijous"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/id_entdijous"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:gravity="start" />
+
+
+        <TextView
+            android:layout_width="152dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:text="Divendres"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/id_entdivendres"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:gravity="start" />
+
+        <TextView
+            android:layout_width="152dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:text="Dissabte"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/id_entdiss"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:gravity="start" />
+
+        <TextView
+            android:layout_width="152dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:text="Diumenge"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/id_entdium"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="40dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:gravity="start" />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "496014648",
+    "firebase_url": "https://ivancid-dfc.firebaseio.com",
+    "project_id": "ivancid-dfc",
+    "storage_bucket": "ivancid-dfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496014648:android:e1c87f4f4587467bda9dcd",
+        "android_client_info": {
+          "package_name": "com.example.dfc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496014648-nukn5bd9607tlhf88loi5o3a5hdkuips.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dfc",
+            "certificate_hash": "bd447838d46adacd3f9583cadc40732ddf3ca097"
+          }
+        },
+        {
+          "client_id": "496014648-0mn22lmgi49mp07rqjtg225v3q8239qq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeDx574sF4rjuehPuh5KVEYv1HW-VhgmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496014648-0mn22lmgi49mp07rqjtg225v3q8239qq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
