@@ -17,7 +17,7 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="25dp"
             android:layout_marginTop="40dp"
-            android:text="Visualitzador d'entrenaments"
+            android:text="Creador d'entrenaments"
             android:textAlignment="center"
             android:textSize="20sp" />
 
